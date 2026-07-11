@@ -7,16 +7,23 @@
 	    Layout
 	------------*/
     "modules-left": [
-        "custom/workspaces",
-        "custom/user"
+        "custom/user",
+        "clock",
+        "idle_inhibitor"
+        
     ],
     "modules-center": [
-        "hyprland/language"
-       
+        "custom/workspaces"
     ],
     "modules-right": [
-        "mpris"
-      
+        "cpu",
+        "memory",
+        "backlight",
+        "pulseaudio",
+        "battery",
+        "network",
+        "custom/power",
+        "tray"
     ],
     /*-------------
 	    Options
