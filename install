@@ -11,6 +11,7 @@ DEPS=(
     bluez        # bluetoothctl
     brightnessctl
     fzf
+    libpulse     # pactl
     NetworkManager  # nmcli
 )
 
