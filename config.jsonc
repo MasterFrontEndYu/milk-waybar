@@ -20,6 +20,7 @@
         "backlight",
         "group/pulseaudio",
         "battery",
+        "bluetooth",
         "network",
         "custom/power",
         "tray"
