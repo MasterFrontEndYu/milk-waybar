@@ -13,6 +13,7 @@
 
     ],
     "modules-center": [
+      "tray"
     ],
     "modules-right": [
         "cpu",
@@ -22,8 +23,8 @@
         "battery",
         "bluetooth",
         "network",
-        "custom/power",
-        "tray"
+        "custom/power"
+
     ],
     /*-------------
 	    Options
