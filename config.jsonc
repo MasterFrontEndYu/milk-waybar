@@ -43,7 +43,7 @@
     // "margin-bottom":
     // "margin-right":
     // "no-center":
-    "spacing": 0,
+    "spacing":  6,
     // "name":
     "mode": "dock",
     // "start_hidden":
