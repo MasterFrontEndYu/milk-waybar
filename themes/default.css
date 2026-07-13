@@ -33,9 +33,8 @@ tooltip label {
     border-bottom: 3px solid white;
 }
 
- #network, #custom-power,#bluetooth {
-     font-size: 18px;
-}
+
+
 
 #mode {
     background: #64727D;

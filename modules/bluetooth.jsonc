@@ -2,11 +2,11 @@
     "bluetooth": {
         // "controller":
         // "format-device-preference":
-        "format": "󰂯",
-        "format-disabled": "󰂲",
-        "format-off": "󰂲",
-        "format-on": "󰂰",
-        "format-connected": "󰂱",
+        "format": "<span size='18432'>󰂯</span>",
+        "format-disabled": "<span size='18432'>󰂲</span>",
+        "format-off": "<span size='18432'>󰂲</span>",
+        "format-on": "<span size='18432'>󰂰</span>",
+        "format-connected": "<span size='18432'>󰂱</span>",
         // "format-connected-battery":
         // "format-no-controller":
         // "format-icons":
