@@ -1,7 +1,7 @@
 {
     "backlight": {
         // "interval":
-        "format": "{icon} {percent}%",
+        "format": "<span size='18432' rise='-3072'>{icon}</span> {percent}%",
         "format-icons": [
             "",
             "",

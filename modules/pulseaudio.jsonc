@@ -16,15 +16,14 @@
 	    Output device
 	-------------------*/
     "pulseaudio#output": {
-        "format": "{icon} {volume}%",
+        "format": "<span size='18432' rise='-3072'>{icon}</span> {volume}%",
         // "format-bluetooth":
-        "format-muted": "{icon} {volume}%",
+        "format-muted": "<span size='18432' rise='-3072'>{icon}</span> {volume}%",
         // "format-source":
         // "format-source-muted":
         "format-icons": {
             "default": [
-                "󰕿",
-                "󰖀",
+                "󰝟",
                 "󰕾"
             ],
             "default-muted": "󰝟",
@@ -65,8 +64,8 @@
         "format": "{format_source}",
         // "format-bluetooth":
         // "format-muted":
-        "format-source": "󰍬 {volume}%",
-        "format-source-muted": "󰍭 {volume}%",
+        "format-source": "<span size='18432' rise='-3072'>󰍬</span> {volume}%",
+        "format-source-muted": "<span size='18432' rise='-3072'>󰍭</span> {volume}%",
         // "format-icons":
         // "rotate":
         // "states":

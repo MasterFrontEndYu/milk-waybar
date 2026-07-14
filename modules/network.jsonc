@@ -6,7 +6,7 @@
         // "family":
         "format": "󰤨",
         "format-ethernet": "󰈀",
-        "format-wifi": "{icon}",
+        "format-wifi": "<span size='16384'>{icon}</span>",
         // "format-linked":
         "format-disconnected": "󰤯",
         "format-disabled": "󰤮",
