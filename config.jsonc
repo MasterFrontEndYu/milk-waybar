@@ -19,8 +19,8 @@
 		"idle_inhibitor",
 		"clock#time",
 		"clock#date",
-		"network",
-		"bluetooth",
+		"custom/network",
+		"custom/bluetooth",
 		"custom/update"
 	],
 	"modules-right": [
