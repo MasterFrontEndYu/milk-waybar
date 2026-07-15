@@ -32,7 +32,8 @@
 		"group/pulseaudio",
 		"backlight",
 		"battery",
-		"custom/power"
+		"custom/power",
+		"tray"
 	],
 
 	/*-------------
