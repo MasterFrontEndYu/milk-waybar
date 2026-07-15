@@ -10,11 +10,10 @@
     Volume
 ------------*/
 
-#custom-left_div.6 {
-	color: @volume;
-}
+
 #pulseaudio,
 #wireplumber {
+    padding: 0 4px;
 	background-color: @volume;
 }
 
@@ -22,10 +21,7 @@
     Brightness
 ----------------*/
 
-#custom-left_div.7 {
-	background-color: @volume;
-	color: @backlight;
-}
+
 #backlight {
 	background-color: @backlight;
 }
@@ -34,24 +30,18 @@
     Battery
 -------------*/
 
-#custom-left_div.8 {
-	background-color: @backlight;
-	color: @battery;
-}
+
 #battery {
 	background-color: @battery;
 }
-#custom-left_inv.2 {
-	color: @battery;
-}
+
 
 /*----------------
     Power menu
 ----------------*/
 
 #custom-power {
-	border-radius: 16px;
-	padding: 0 19px 0 16px;
+	padding: 0 16px;
 	color: @accent;
 }
 #custom-power:hover {
