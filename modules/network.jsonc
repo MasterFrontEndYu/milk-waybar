@@ -1,5 +1,5 @@
 {
-	"custom/network": {
+	"network": {
 		// "interface":
 		// "rfkill":
 		"interval": 10,
@@ -15,8 +15,8 @@
 			"󰤟", "󰤢", "󰤥", "󰤨"
 		],
 		// "rotate":
-		"min-length": 2,
-		"max-length": 2,
+		"min-length": 4,
+		"max-length": 4,
 		// "align":
 		// "justify":
 		"on-click": "foot -e bash ~/.config/waybar/scripts/network",

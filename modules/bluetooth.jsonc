@@ -1,5 +1,5 @@
 {
-	"custom/bluetooth": {
+	"bluetooth": {
 		// "controller":
 		// "format-device-preference":
 		"format": "󰂯",
@@ -11,13 +11,13 @@
 		// "format-no-controller":
 		// "format-icons":
 		// "rotate":
-		"min-length": 2,
-		"max-length": 2,
+		"min-length": 4,
+		"max-length": 4,
 		// "align":
 		// "justify":
 		"on-click": "foot -e bash ~/.config/waybar/scripts/bluetooth",
 		// "on-click-middle":
-		"on-click-right": "~/.config/waybar/scripts/bluetooth off",
+		"on-click-right": "bash ~/.config/waybar/scripts/bluetooth off",
 		// "on-scroll-up":
 		// "on-scroll-down":
 		// "smooth-scrolling-threshold":

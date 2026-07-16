@@ -48,7 +48,6 @@
 ----------*/
 
 #clock.time {
-	padding-right: 6px;
 	background-color: @time;
 }
 
@@ -58,7 +57,6 @@
 ----------*/
 
 #clock.date {
-	padding-left: 6px;
 	background-color: @date;
 }
 
@@ -67,10 +65,8 @@
 -----------------*/
 
 #custom-network {
-	background-color: @tray;;
-	padding: 0 6px 0 4px;
+	background-color: @tray;
 }
 #custom-bluetooth {
-	background-color: @tray;;
-	padding: 0 5px;
+	background-color: @tray;
 }
