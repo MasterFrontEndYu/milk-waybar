@@ -4,7 +4,6 @@
 
 
 #workspaces {
-	padding: 0 1px;
 	background-color: @workspaces;
 }
 #workspaces button.active label,
@@ -17,5 +16,4 @@
 ------------------*/
 
 #window {
-	margin: 0 12px;
 }
