@@ -33,8 +33,8 @@
 		},
 		// "rotate":
 		// "states":
-		"min-length": 7,
-		"max-length": 7,
+		"min-length": 8,
+		"max-length": 8,
 		// "align":
 		// "justify":
 		// "scroll-step":
@@ -70,8 +70,8 @@
 		// "format-icons":
 		// "rotate":
 		// "states":
-		"min-length": 7,
-		"max-length": 7,
+		"min-length": 8,
+		"max-length": 8,
 		// "align":
 		// "justify":
 		// "scroll-step":

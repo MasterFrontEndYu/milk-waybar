@@ -30,6 +30,10 @@
 -------------*/
 
 
+#tray {
+  padding: 0 12px;
+}
+
 #battery {
 	background-color: @battery;
 }
