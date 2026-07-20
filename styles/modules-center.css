@@ -6,41 +6,36 @@
     Temperature
 -----------------*/
 
-
 #temperature {
-	background-color: @temperature;
+    background-color: @temperature;
 }
 
 /*------------
     Memory
 ------------*/
 
-
 #memory {
-	background-color: @memory;
+    background-color: @memory;
 }
 
 /*---------
     CPU
 ---------*/
 
-
 #cpu {
-	background-color: @cpu;
+    background-color: @cpu;
 }
 
 /*-----------------
     Distro icon
 -----------------*/
 
-
-
 /*--------------------
     Idle inhibitor
 --------------------*/
 
 #idle_inhibitor {
-	background-color: @shy;
+    background-color: @shy;
 }
 
 /*----------
@@ -48,26 +43,25 @@
 ----------*/
 
 #clock.time {
-	background-color: @time;
+    background-color: @time;
 }
-
 
 /*----------
     Date
 ----------*/
 
 #clock.date {
-	background-color: @date;
+    background-color: @date;
 }
 
 /*-----------------
     System tray
 -----------------*/
 
-#custom-network {
-	background-color: @temperature;;
+#network {
+    background-color: @temperature;
 }
 
-#custom-bluetooth {
-	background-color: @temperature;
+#bluetooth {
+    background-color: @temperature;
 }

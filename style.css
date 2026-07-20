@@ -1,8 +1,8 @@
 @import "theme.css";
 
 * {
-	all: initial; /* Reset GTK theme */
-	color: @main-fg;
+    all: initial; /* Reset GTK theme */
+    color: @main-fg;
 }
 
 @import "styles/fonts.css";
@@ -10,35 +10,37 @@
 @import "styles/modules-left.css";
 @import "styles/modules-right.css";
 @import "styles/states.css";
+@import "styles/xml.css";
 
-#menu { background-color: red; }
+#menu {
+    background-color: red;
+}
 .module {
-	margin-bottom: -1px;
+    margin-bottom: -1px;
 }
 
 #waybar {
-	background-color: @outline;
+    background-color: @outline;
 }
 #waybar > box {
-	background-color: @main-bg;
+    background-color: @main-bg;
 }
 
 button {
-	border-radius: 16px;
-	min-width: 16px;
-	padding: 0 10px;
+    border-radius: 16px;
+    min-width: 16px;
+    padding: 0 10px;
 }
 button:hover {
-	background-color: @hover-bg;
-	color: @hover-fg;
+    background-color: @hover-bg;
+    color: @hover-fg;
 }
 
 tooltip {
-	border: 2px solid @main-br;
-	border-radius: 10px;
-	background-color: @main-bg;
+    border: 2px solid @main-br;
+    border-radius: 10px;
+    background-color: @main-bg;
 }
 tooltip > box {
-	padding: 0 6px;
+    padding: 0 6px;
 }
-
