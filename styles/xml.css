@@ -12,7 +12,7 @@
     /* 最小宽度，防止文字挤在一起 */
     min-width: 180px;
 }
-
+#menu { background-color: red; }
 /* ====== 每个菜单项 ====== */
 #menu GtkMenuItem {
     /* 文字与图标颜色 */
@@ -41,6 +41,7 @@
     border-radius: 6px;
     /* 通过边距和内边距的配合，让悬停背景不紧贴边缘 */
     margin: 2px 8px;
+    color:red;
     padding: 8px 16px; /* 补偿 margin 占据的空间 */
 }
 
@@ -60,4 +61,8 @@
 /* ====== 如果你给菜单项加了子菜单箭头，可以这样调颜色 ====== */
 #menu GtkMenuItem GtkArrow {
     color: inherit;
+}
+
+#custom-bluetooth {
+  background-color: red;
 }

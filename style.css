@@ -10,9 +10,8 @@
 @import "styles/modules-left.css";
 @import "styles/modules-right.css";
 @import "styles/states.css";
-@import "styles/xml.css";
 
-
+#menu { background-color: red; }
 .module {
 	margin-bottom: -1px;
 }
@@ -43,66 +42,3 @@ tooltip > box {
 	padding: 0 6px;
 }
 
-/* ====== 菜单主容器 ====== */
-#menu {
-    /* 半透明毛玻璃背景 */
-    background-color: rgba(30, 30, 46, 0.92);
-    /* 外围发光边框 */
-    border: 1px solid rgba(255, 255, 255, 0.12);
-    border-radius: 12px;
-    /* 阴影增加层次感 */
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
-    /* 内边距控制整体紧凑度 */
-    padding: 6px 0;
-    /* 最小宽度，防止文字挤在一起 */
-    min-width: 180px;
-}
-
-/* ====== 每个菜单项 ====== */
-#menu GtkMenuItem {
-    /* 文字与图标颜色 */
-    color: #cdd6f4;
-    /* 继承图标字体（重要！否则图标变方块） */
-    font-family: "Nerd Font", "Font Awesome 6 Free", "Font Awesome 6 Brands", sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    /* 内边距：上下10px，左右24px */
-    padding: 10px 24px;
-    /* 背景透明，不遮盖毛玻璃效果 */
-    background-color: transparent;
-    /* 去掉默认边框 */
-    border: none;
-    /* 过渡动画，让悬停更顺滑 */
-    transition: all 0.15s ease;
-}
-
-/* ====== 悬停/选中状态 ====== */
-#menu GtkMenuItem:hover {
-    /* 高亮背景色（这里是柔和蓝紫色） */
-    background-color: #89b4fa;
-    /* 文字反色，更清晰 */
-    color: #1e1e2e;
-    /* 圆角让悬停背景更柔和 */
-    border-radius: 6px;
-    /* 通过边距和内边距的配合，让悬停背景不紧贴边缘 */
-    margin: 2px 8px;
-    padding: 8px 16px; /* 补偿 margin 占据的空间 */
-}
-
-/* ====== 菜单分隔线 ====== */
-#menu GtkSeparatorMenuItem {
-    /* 分隔线本身透明，只显示下边框 */
-    background-color: transparent;
-    border: none;
-    /* 用下边框做分割线 */
-    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-    /* 上下留白，左右留边距 */
-    margin: 6px 16px;
-    padding: 0;
-    min-height: 0;
-}
-
-/* ====== 如果你给菜单项加了子菜单箭头，可以这样调颜色 ====== */
-#menu GtkMenuItem GtkArrow {
-    color: inherit;
-}

@@ -65,8 +65,9 @@
 -----------------*/
 
 #custom-network {
-	background-color: @tray;
+	background-color: @temperature;;
 }
+
 #custom-bluetooth {
-	background-color: @tray;
+	background-color: @temperature;
 }
