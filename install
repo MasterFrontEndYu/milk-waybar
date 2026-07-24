@@ -8,9 +8,16 @@ FG_RESET="\e[39m"
 ERRORS=0
 
 DEPS=(
+    ly
+    fuzzel
+    waybar
+    swaybg
+    swayidle
+    swaylock
     bluez        # bluetoothctl
     brightnessctl
     fzf
+    wl-clipboard
     NetworkManager  # nmcli
     libnotify
     mako
@@ -18,7 +25,7 @@ DEPS=(
 
 # 检查包是否已安装
 is_installed() {
-    rpm -q "$1" &> /dev/null
+    pacman -Q "$1" &> /dev/null
 }
 
 install_deps() {
